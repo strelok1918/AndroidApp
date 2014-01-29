@@ -48,6 +48,24 @@ public class MyActivity extends Activity {
         AlertDialog dialog = builder.create();
         dialog.show();
     }
+
+    private void checkWin()
+    {
+        int winner = buttons.whoWin();
+        if(winner == State.CROSS)
+        {
+            showMessage("CROSS win");
+            clearField();
+            currentState = State.CROSS;
+        }
+        else if(winner == State.ZERO)
+        {
+            showMessage("ZERO win");
+            clearField();
+            currentState = State.CROSS;
+        }
+    }
+
     public void StepClick(View v)
     {
         ImageButton button = (ImageButton)v;
@@ -68,20 +86,6 @@ public class MyActivity extends Activity {
             buttons.setButtonState(v.getId(), State.ZERO);
         }
         changeGlobalState();
-
-        int winner = buttons.whoWin();
-        if(winner == State.CROSS)
-        {
-            showMessage("CROSS win");
-            clearField();
-            currentState = State.CROSS;
-        }
-        else if(winner == State.ZERO)
-        {
-            showMessage("ZERO win");
-            clearField();
-            currentState = State.CROSS;
-        }
     }
     /**
      * Called when the activity is first created.

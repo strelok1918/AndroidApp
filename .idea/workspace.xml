@@ -74,7 +74,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/AndroidApp/MyActivity.java" line="50" class="com.example.AndroidApp.MyActivity" package="com.example.AndroidApp">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/AndroidApp/MyActivity.java" line="68" class="com.example.AndroidApp.MyActivity" package="com.example.AndroidApp">
         <option name="WATCH_ENTRY" value="true" />
         <option name="WATCH_EXIT" value="true" />
         <option name="ENABLED" value="true" />
@@ -102,19 +102,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/AndroidApp/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="58" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1819">
+            <state line="58" column="12" selection-start="1507" selection-end="1534" vertical-scroll-proportion="-0.25753424" vertical-offset="910" max-vertical-offset="1717">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonState.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ButtonState.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/AndroidApp/ButtonState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="35" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1921">
+            <state line="30" column="5" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1921">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -604,7 +604,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -618,7 +618,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25724906" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34201956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34201956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -972,13 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AndroidApp/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="58" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0" vertical-offset="749" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AndroidApp/State.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -988,10 +981,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AndroidApp/ButtonState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="35" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1921">
+        <state line="30" column="5" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1921">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AndroidApp/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="12" selection-start="1507" selection-end="1534" vertical-scroll-proportion="-0.25753424" vertical-offset="910" max-vertical-offset="1717">
+          <folding />
         </state>
       </provider>
     </entry>
